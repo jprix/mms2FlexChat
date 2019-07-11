@@ -1,5 +1,5 @@
 # mms2FlexChat
-Allows customer to send in MMS media and render within Flex Chat window
+Allows end users to send in MMS media  over SMS and render within Flex Chat window.
 
 Looking for your Flex Chat Window render MMS media into your Flex Chat UI?  
 
