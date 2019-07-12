@@ -5,7 +5,7 @@ Looking for your Flex Chat Window render MMS media into your Flex Chat UI?
 
 # Steps:
 
-1)  MMS Handler Function:  This twilio function will be called everytime a proxy interaction occurs- by using the Proxy Callback URI- the function will check to see if a MMS exists on the SMS message sent in. 
+1)  mmsHandler.js:  This twilio function will be called everytime a proxy interaction occurs- by using the Proxy Callback URI- the function will check to see if a MMS exists on the SMS message sent in. 
 
 You only need to upload/copy this Twilio function and configure your context params and npm pacakges.
 
