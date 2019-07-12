@@ -9,7 +9,7 @@ Steps:
 
 You only need to upload this function and configure your context params and npm pacakges.
 
-2) plugin-sms-media-v0.1.js
-text/javascript:  this plugin gets deployed to Flex.  It will add the react code reqiured to render a media message inside the Flex chat bubble.
+2) Flex plugin:
+text/javascript:  this plugin gets deployed to Flex.  It will add the react code reqiured to render a media message inside the Flex chat bubble.  See here for deploying a Flex plugin- https://www.twilio.com/docs/flex/deploying-plugins 
 
 Demo:
