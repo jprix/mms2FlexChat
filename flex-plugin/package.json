@@ -10,6 +10,7 @@
     "eject": "react-app-rewired eject"
   },
   "devDependencies": {
+    "@material-ui/core": "^3.0.0",
     "@twilio/flex-ui": "1.1.0",
     "react-app-rewire-flex-plugin": "1.1.1",
     "react-app-rewired": "^1.6.2"

@@ -1,1 +1,6 @@
 .DS_Store
+flex-plugin/node_modules/
+appConfig.js
+flex-plugin/package-lock.json
+flex-plugin/build/
+.vscode/settings.json

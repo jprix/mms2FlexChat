@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import * as Flex from "@twilio/flex-ui";
 
 const imgContainerStyle = {
   padding: "5px",
@@ -6,10 +7,6 @@ const imgContainerStyle = {
 };
 
 class MessageImageComponent extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     if (this.props.message.source.state.attributes.media) {
       return (
@@ -17,7 +14,12 @@ class MessageImageComponent extends Component {
           <img
             src={this.props.message.source.state.attributes.media}
             alt="MMS"
-            width="100%"
+            width="150px"
+            onClick={() =>
+              Flex.Actions.invokeAction("smsModalControl", {
+                url: this.props.message.source.state.attributes.media
+              })
+            }
           />
         </div>
       );
