@@ -13,3 +13,6 @@ You only need to upload/copy this Twilio function and configure your context par
 text/javascript:  this plugin gets deployed to Flex.  It will add the react code reqiured to render a media message inside the Flex chat bubble.  See here for deploying a Flex plugin- https://www.twilio.com/docs/flex/deploying-plugins 
 
 Demo:
+![image thumbnail](https://raw.githubusercontent.com/jprix/mms2FlexChat/master/screenshots/thumbnail.png)
+
+![image modal](https://raw.githubusercontent.com/jprix/mms2FlexChat/master/screenshots/modal.png)
