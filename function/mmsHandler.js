@@ -16,6 +16,7 @@ exports.handler = function(context, event, callback) {
 
   let SESSION_SID;
   let CHANNEL_SID;
+  let mediaType;
   let mediaURL;
   let MESSAGE_SID;
 
@@ -49,7 +50,8 @@ exports.handler = function(context, event, callback) {
       })
       .then(function(result) {
         if (result.media_list) {
-          const contentType = result.media_list[0].content_type;
+          mediaType = result.media_list[0].content_type;
+          console.log('media content type:', mediaType);
           mediaURL =
             "https://api.twilio.com" +
             result.media_list[0].uri.replace(".json", "");
@@ -82,7 +84,7 @@ exports.handler = function(context, event, callback) {
             Authorization: `Basic ${base64Token}`,
             "Content-Type": "application/x-www-form-urlencoded"
           },
-          formData: { Attributes: `{"media": "${mediaURL}"}` }
+          formData: { Attributes: `{"media": "${mediaURL}", "mediaType": "${mediaType}"}` }
         };
         return rp(options);
       })
