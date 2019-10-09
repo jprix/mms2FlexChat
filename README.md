@@ -45,8 +45,8 @@ We now need to configure the Proxy Callback URL to point to that Function.
 6) text/javascript:  This plugin gets deployed to Flex.  It will add the React code required to render a media message inside the Flex chat bubble, and enable some demonstration buttons for sending media messages from Flex.  See here for deploying a Flex plugin- https://www.twilio.com/docs/flex/deploying-plugins 
 
 Demo:
-![image thumbnail](https://raw.githubusercontent.com/jprix/mms2FlexChat/master/screenshots/thumbnail.png)
+![image thumbnail](screenshots/thumbnail.png)
 
-![image modal](https://raw.githubusercontent.com/jprix/mms2FlexChat/master/screenshots/modal.png)
+![image modal](screenshots/modal.png)
 
-![send media buttons](https://raw.githubusercontent.com/jprix/mms2FlexChat/master/screenshots/sendMediaButtons.png)
+![send media buttons](screenshots/sendMediaButtons.png)
