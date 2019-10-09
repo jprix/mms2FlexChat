@@ -79,7 +79,7 @@ class MessageImageComponent extends Component {
           element = this.renderPdfViewer(media);
           break;
         case 'video/mp4':
-          element = this.renderVideoPlayer(media);
+          element = this.renderVideoPlayer(media, mediaType);
           break;
         default:
           element = <div />;

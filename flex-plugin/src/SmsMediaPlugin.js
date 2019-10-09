@@ -2,6 +2,7 @@ import { FlexPlugin } from "flex-plugin";
 import React from "react";
 import MessageImageComponent from "./MessageImageComponent";
 import ImageModal from "./ImageModal";
+import SendMediaComponent from './SendMediaComponent';
 
 const PLUGIN_NAME = "SmsMediaPlugin";
 
@@ -33,5 +34,7 @@ export default class SmsMediaPlugin extends FlexPlugin {
     flex.MainContainer.Content.add(<ImageModal key="imageModal" />, {
       sortOrder: 1
     });
+
+    flex.MessageInput.Content.add(<SendMediaComponent key="sendMedia" manager={manager}/>);
   }
 }
