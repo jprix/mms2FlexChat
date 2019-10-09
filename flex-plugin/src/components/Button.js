@@ -9,7 +9,8 @@ const styles = theme => ({
         'padding-right': 5,
         'margin-bottom': 12,
         'line-height': 1.25,
-        'text-transform': 'none'
+        'text-transform': 'none',
+        'box-shadow': 'none'
     },
     input: {
         display: 'none',
@@ -17,9 +18,6 @@ const styles = theme => ({
 });
 
 class MyButton extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         const { classes } = this.props;
         return (
