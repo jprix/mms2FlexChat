@@ -42,7 +42,7 @@ class MessageImageComponent extends Component {
   renderPdfViewer = (media) => {
     return (
       <React.Fragment>
-        <iframe src={media} width="100%" />
+        <iframe title='PDF Preview' src={media} width="100%" />
         <a href={media} target="_blank">
           Full Size Document
         </a>
