@@ -5,7 +5,7 @@
     "class": "SmsMediaPlugin",
     "requires": [
       {
-        "@twilio/flex-ui": "1.1.0"
+        "@twilio/flex-ui": "1.13.0"
       }
     ],
     "src": "http://localhost:8080/plugin-sms-media.js"
